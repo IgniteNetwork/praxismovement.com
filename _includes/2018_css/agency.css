@@ -247,7 +247,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand {
-    font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: {{ site.data.template.font.primary }};
     color: #{{ site.data.template.color.primary }};
 }
 
@@ -370,7 +370,7 @@ header .intro-text .intro-heading {
     line-height: 40px;
 }
 
-@media(min-width:768px) {    
+@media(min-width:768px) {
     header .intro-text {
         padding-top: 300px;
         padding-bottom: 200px;

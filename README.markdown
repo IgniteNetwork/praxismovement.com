@@ -15,7 +15,7 @@ Big thanks to the creator of Agency as this theme would not be possible without 
 - About section with options to navigate to subpages
 - Event Sponsors
 - Contact Us page
-### Agenda Page
+### Schedule Page
 - Table with time and event title columns
 - Speaker's name is hilighted in different color and speaker's position/title is in italic.
 ### Team's Profile Page
