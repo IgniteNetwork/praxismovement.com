@@ -9,7 +9,7 @@ markdown: kramdown
 facebook:
   app_id:
 
-logo: "../css/2018_style/img/icon-large.png"
+logo: "../css/2019_style/img/icon-large.png"
 
 social:
   name: Your Facebook Page
@@ -17,7 +17,7 @@ social:
 
 google_site_verification: googleXXXXXXXXXXXXXXXX.html
 
-include: ['_2018_pages', '_2018_pages']
+include: ['_2019_pages', '_2019_pages']
 
 gems:
   - jekyll-sitemap
