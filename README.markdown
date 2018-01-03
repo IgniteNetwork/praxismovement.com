@@ -49,11 +49,11 @@ Two different design:
 
 ## How To Use
 - The main stylesheet is stored `/css/2016_style`.
-- In `/css/2016_style/img` you will find where the pictures in `/2016` are stored at. You will find the images of all related posts in `/css/2017_style/img`. This setup is to ensure that we are easily to move from year to year by creating new folders.
-- `_2016_pages` and `_2017_pages` are the folders that store subpages.
-- `_2016_data` and `_2017_data` are the folders that store each sections in home page. Those sections are can be removed by removing the `include` code in `_layout/2016_home.html` or `_layout/2017_home.html`.
-- `_2016_speakers` and `_2017_speakers` contain speakers' profile. They're written in markdown style. 
-- `_2017_teams` contains each team member's profile. They're written in markdown style. 
+- In `/css/2016_style/img` you will find where the pictures in `/2016` are stored at. You will find the images of all related posts in `/css/2018_style/img`. This setup is to ensure that we are easily to move from year to year by creating new folders.
+- `_2016_pages` and `_2018_pages` are the folders that store subpages.
+- `_2016_data` and `_2018_data` are the folders that store each sections in home page. Those sections are can be removed by removing the `include` code in `_layout/2016_home.html` or `_layout/2018_home.html`.
+- `_2016_speakers` and `_2018_speakers` contain speakers' profile. They're written in markdown style. 
+- `_2018_teams` contains each team member's profile. They're written in markdown style. 
 - In order to view PDF correctly, sharing setting in Google Drive must set to "Public on the web".
 
 ## Enjoy!
