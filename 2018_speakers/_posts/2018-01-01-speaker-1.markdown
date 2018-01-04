@@ -1,12 +1,14 @@
 ---
-title: Name
-name: Name-1
-subtitle: Position
+title: Brian Sanders
+name: brian-sanders
+subtitle: Founder and Executive Director, The Underground Network
 layout: 2018_default
 modal-id: 1
-img: TBD.jpg
-thumbnail: TBD.jpg
-alt: Picture of TBD
+img: brian-sanders.jpg
+thumbnail: brian-sanders.jpg
+alt: Picture of Brian Sanders
 topic: Topic
-description: More Info
+description: Description
 ---
+
+Brian Sanders serves as founder and executive director of The Underground Network in Tampa, Florida, a group of over 170 microchurches across the city. He is also the author of the upcoming 2018 book The Underground Church: A Living Example of the Church in Its Most Potent Form as well as “Different’; ‘Life in Intentional Christian Community’ and ‘Christology, Missiology and the Poor’. Brian is a renowned speaker and visionary and has a heart to help leaders discover their calling and follow Jesus into mission.
