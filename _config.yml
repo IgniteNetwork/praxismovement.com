@@ -19,7 +19,7 @@ google_site_verification: googleXXXXXXXXXXXXXXXX.html
 
 include: ['_2018_pages'] # list directories here containing pages to be published
 
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
