@@ -8,7 +8,6 @@ html {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  height: 100%;
 }
 
 *, *:before, *:after {
@@ -18,26 +17,8 @@ html {
 }
 
 body {
-    position: absolute;
-    margin: 0;
-    padding-bottom: 90px;
-    min-height: 100%;
-    width: 100%;
-    overflow-x: hidden;
     font-family: {{ site.data.template.font.secondary }};
     color: #{{ site.data.template.color.secondary-dark }};
-}
-
-@media screen and (max-width : 1200px){
-  body {
-      padding-bottom: 100px;
-  }
-}
-
-@media screen and (max-width : 768px){
-  body {
-      padding-bottom: 150px;
-  }
 }
 
 .text-muted {
@@ -712,7 +693,6 @@ aside.clients img {
 
 section#contact {
     background-color: #222;
-    background-image: url('{{ site.baseurl }}/css/2018_style/img/map-image.png');
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -773,29 +753,6 @@ section#contact:-ms-input-placeholder {
 
 section#contact .text-danger {
     color: #e74c3c;
-}
-
-footer {
-    padding: 25px 0;
-    background-color: white;
-    position: absolute;
-    right: 0;
-    left: 0;
-}
-
-footer span.copyright {
-    text-transform: uppercase;
-    text-transform: none;
-    font-family: {{ site.data.template.font.primary }};
-    line-height: 40px;
-}
-
-footer ul.quicklinks {
-    margin-bottom: 0;
-    text-transform: uppercase;
-    text-transform: none;
-    font-family: {{ site.data.template.font.primary }};
-    line-height: 40px;
 }
 
 ul.social-buttons {
