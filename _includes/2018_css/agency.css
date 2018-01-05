@@ -24,7 +24,7 @@ body {
     min-height: 100%;
     width: 100%;
     overflow-x: hidden;
-    font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: {{ site.data.template.font.secondary }};
     color: #{{ site.data.template.color.secondary-dark }};
 }
 
@@ -249,6 +249,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand {
     font-family: {{ site.data.template.font.primary }};
     color: #{{ site.data.template.color.primary }};
+    text-transform: uppercase;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -336,12 +337,11 @@ fieldset[disabled] .btn-xl.active {
 
 header {
     height: 100vh;
-    text-align: center;
-    color: #fff;
+    color: ##{{ site.data.template.color.secondary-dark }};
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/css/2018_style/img/header-bg.jpg');
+    background-image: url('{{ site.baseurl }}/css/2018_style/img/drew-graham-338629-web.jpeg');
     background-position: center center;
-    background-repeat: none;
+    background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -357,7 +357,6 @@ header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: {{ site.data.template.font.secondary }};
     font-size: 22px;
-    font-style: italic;
     line-height: 22px;
 }
 
@@ -365,12 +364,16 @@ header .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
-    font-size: 40px;
+    font-size: 8rem;
     font-weight: 700;
     line-height: 40px;
 }
 
 @media(min-width:768px) {
+    header {
+        background-position: 270px center;
+    }
+
     header .intro-text {
         padding-top: 300px;
         padding-bottom: 200px;
@@ -380,7 +383,6 @@ header .intro-text .intro-heading {
         margin-bottom: 25px;
         font-family: {{ site.data.template.font.secondary }};
         font-size: 40px;
-        font-style: italic;
         line-height: 40px;
     }
 
@@ -388,7 +390,7 @@ header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
         font-family: {{ site.data.template.font.primary }};
-        font-size: 75px;
+        font-size: 12rem;
         font-weight: 700;
         line-height: 75px;
     }
@@ -410,7 +412,6 @@ section h3.section-subheading {
     text-transform: none;
     font-family: {{ site.data.template.font.secondary }};
     font-size: 120%;
-    font-style: italic;
     font-weight: 400;
 }
 
@@ -445,7 +446,7 @@ section h3.section-subheading {
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
-    background: #3cb371;
+    background: #{{ site.data.template.color.primary }};
 }
 
 #speakers .speakers-item .speakers-link .speakers-hover:hover {
@@ -853,7 +854,7 @@ ul.social-buttons li a:active {
     margin: 20px 0 30px;
     font-family: {{ site.data.template.font.secondary }};
     font-size: 100%;
-    font-style: italic;
+    /* font-style: italic; */
 }
 
 .portfolio-modal .modal-content ul.list-inline {
