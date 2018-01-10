@@ -350,6 +350,11 @@ header .intro-text .intro-heading {
     line-height: 40px;
 }
 
+.intro-subheading {
+  font-size: 18px;
+  margin-bottom: 28px;
+}
+
 @media(min-width:768px) {
     header {
         background-position: 270px center;
@@ -363,15 +368,15 @@ header .intro-text .intro-heading {
     header .intro-text .intro-lead-in {
         margin-bottom: 25px;
         font-family: {{ site.data.template.font.secondary }};
-        font-size: 40px;
-        line-height: 40px;
+        font-size: 30px;
+        line-height: 1.2;
     }
 
     header .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
         font-family: {{ site.data.template.font.primary }};
-        font-size: 12rem;
+        font-size: 16rem;
         font-weight: 700;
         line-height: 75px;
     }
