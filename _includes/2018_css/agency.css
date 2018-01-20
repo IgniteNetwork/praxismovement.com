@@ -397,6 +397,14 @@ header .intro-text .intro-heading {
     }
 }
 
+.dictionary-entry {
+  padding: 20px 30px;
+  margin-top: 15px;
+  margin-bottom: 50px;
+  font-size: 20px;
+  background-color: #eaeaea;
+}
+
 section {
     padding: 100px 0;
 }
