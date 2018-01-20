@@ -318,7 +318,7 @@ fieldset[disabled] .btn-xl.active {
 
 header {
     height: 100vh;
-    color: ##{{ site.data.template.color.secondary-dark }};
+    color: #{{ site.data.template.color.secondary-dark }};
     background-attachment: scroll;
     background-image: url('{{ site.baseurl }}/css/2018_style/img/drew-graham-338629-web.jpeg');
     background-position: center center;
@@ -327,11 +327,13 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    position: relative;
 }
 
 header .intro-text {
-    padding-top: 25vh;
+    padding-top: 80px;
     padding-bottom: 50px;
+    text-align: center;
 }
 
 header .intro-text .intro-lead-in {
@@ -355,6 +357,13 @@ header .intro-text .intro-heading {
   margin-bottom: 28px;
 }
 
+.intro-text .btn {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  margin-left: -88px;
+}
+
 @media(min-width:768px) {
     header {
         background-position: 270px center;
@@ -363,6 +372,7 @@ header .intro-text .intro-heading {
     header .intro-text {
         padding-top: 300px;
         padding-bottom: 200px;
+        text-align: left;
     }
 
     header .intro-text .intro-lead-in {
@@ -379,6 +389,11 @@ header .intro-text .intro-heading {
         font-size: 16rem;
         font-weight: 700;
         line-height: 75px;
+    }
+
+    .intro-text .btn {
+      position: static;
+      margin-left: auto;
     }
 }
 
