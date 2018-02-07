@@ -796,17 +796,21 @@ footer .footer__links {
     line-height: 40px;
 }
 
-ul.social-buttons {
+.social-buttons {
     margin-bottom: 0;
 }
 
-ul.social-buttons li a {
-    display: block;
+.social-buttons li {
+  margin-bottom: 10px;
+}
+
+.social-buttons a i {
     width: 40px;
     height: 40px;
     border-radius: 100%;
     font-size: 20px;
     line-height: 40px;
+    margin-right: 8px;
     text-align: center;
     outline: 0;
     color: #fff;
@@ -816,9 +820,9 @@ ul.social-buttons li a {
     transition: all .3s;
 }
 
-ul.social-buttons li a:hover,
-ul.social-buttons li a:focus,
-ul.social-buttons li a:active {
+.social-buttons a:hover i,
+.social-buttons a:focus i,
+.social-buttons a:active i {
     background-color: #{{ site.data.template.color.primary }};
 }
 
