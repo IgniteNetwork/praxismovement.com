@@ -8,6 +8,7 @@ img: hugh-halter.jpg
 thumbnail: hugh-halter.jpg
 alt: Picture of Hugh Halter
 topic: Topic
+published: false
 ---
 
 Hugh is the national director of Missio, a ministry team committed to training, developing, and apprenticing Incarnational leaders for the church. He is also the Director of Forge America. Hugh has recently started the Lantern Network in Alton, Illinois. He speaks extensively around the world encouraging and equipping people in incarnational ministry and missional leadership. Hugh is co-author of The Tangible Kingdom, and the accompanying Tangible Kingdom Primer, as well as AND...The Gathered & Scattered Church. Hugh is an advocate for disoriented God seekers and loves to inspire and re-orient leaders around the mission of God.
