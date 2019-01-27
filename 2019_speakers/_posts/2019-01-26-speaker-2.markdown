@@ -1,0 +1,12 @@
+---
+title: Brian Heasley
+name: brian-heasley
+subtitle: International Prayer Director for 24/7 Prayer
+layout: 2019_default
+modal-id: 1
+img: brian-heasley.jpg
+thumbnail: brian-heasley.jpg
+alt: Picture of Brian Heasley
+topic:
+description:
+---

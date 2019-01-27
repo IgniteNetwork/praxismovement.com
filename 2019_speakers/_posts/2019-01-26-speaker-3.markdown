@@ -1,0 +1,12 @@
+---
+title: Heather Morris
+name: heather-morris
+subtitle: Methodist Minister and Home Mission Department Secretary of the Methodist Church
+layout: 2019_default
+modal-id: 1
+img: heather-morris.jpg
+thumbnail: heather-morris.jpg
+alt: Picture of Heather Morris
+topic:
+description:
+---

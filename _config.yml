@@ -1,6 +1,6 @@
 title: Praxis
 description: > # this means to ignore newlines until "baseurl:"
-  A conference reimagining mission for ordinary people · Dublin, Ireland · 19th May 2018
+  A conference reimagining mission for ordinary people · Dublin, Ireland · 10th - 11th May 2019
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://praxismovement.com" # the base hostname & protocol for your site
 # Build settings
@@ -17,7 +17,7 @@ social:
 
 google_site_verification: googleXXXXXXXXXXXXXXXX.html
 
-include: ['_2018_pages'] # list directories here containing pages to be published
+include: ['_2018_pages', '_2019_pages'] # list directories here containing pages to be published
 
 plugins:
   - jekyll-sitemap
