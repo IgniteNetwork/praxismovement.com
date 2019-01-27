@@ -2,7 +2,7 @@ title: Praxis
 description: > # this means to ignore newlines until "baseurl:"
   A conference reimagining mission for ordinary people · Dublin, Ireland · 10th - 11th May 2019
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://praxismovement.com" # the base hostname & protocol for your site
+url: "https://praxismovement.com" # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
 
