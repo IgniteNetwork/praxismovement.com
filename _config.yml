@@ -25,9 +25,9 @@ plugins:
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
-  # - title: Eventbrite
-  #   icon: ticket
-  #   url: https://www.eventbrite.ie/e/praxis-a-conference-re-imagining-mission-for-ordinary-people-tickets-42495313627?aff=es2
+  - title: Eventbrite
+    icon: ticket
+    url: https://www.eventbrite.ie/e/praxis-2019-a-conference-re-imagining-mission-for-ordinary-people-tickets-55635671792
   - title: Facebook
     icon: facebook
     url: https://www.facebook.com
